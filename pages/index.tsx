@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function Home() {
   return (
     <div className="min-h-screen lg:flex text-lg">
@@ -19,7 +21,7 @@ export default function Home() {
             href="https://www.digitalocean.com/docs/app-platform"
             className="block py-2 px-5 rounded shadow bg-gray-500 text-gray-100 sm:mr-2 mb-2 sm:mb-0"
           >
-            View the Docs
+            View the Docs2222
           </a>
           <a
             href="https://cloud.digitalocean.com/apps"

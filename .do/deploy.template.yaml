@@ -1,9 +1,8 @@
 spec:
-  name: sample-nextjs
+  name: digitalocean-docker-nextjs
   services:
-  - build_command: npm run build
-    environment_slug: node-js
+  - dockerfile_path: Dockerfile
     git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-nextjs.git
-    name: sample-nextjs
+      repo_clone_url: https://github.com/loyep/digitalocean-docker-nextjs.git
+    name: digitalocean-docker-nextjs
